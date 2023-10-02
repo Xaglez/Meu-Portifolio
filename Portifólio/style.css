@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #0fd9cf
+}
+
 body{
     background-color: #000000ef;
     height: 100vh;
@@ -54,14 +64,14 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #7d7d7d;
+    background-color: #2d8580;
     border: 0;
     border-radius: 30px;
 }
 
 .btn_contato button:hover{
     box-shadow: 0px 0px 6px #fff;
-    background-color: #fff;
+    background-color: #0fd9cf;
     cursor: pointer;
     transition: .2s;
     transform: scale(1.05);
@@ -79,6 +89,7 @@ section.topo-do-site .flex{
 
 .flex{
     display: flex;
+
 }
 
 .txt-topo h1{
@@ -96,6 +107,45 @@ section.topo-do-site .flex{
     right: 250px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.topo-do-site .txt-topo h1 span{
+    color: #0fd9cf;
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+    margin-top: 45px;
+}
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: .2s;
+}
+ 
+.especialidades .titulo{
+    margin-top: 80px;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff6d;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #0fd9cf;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
 }
 
 @keyframes flutuar{
