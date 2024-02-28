@@ -156,3 +156,50 @@ section.especialidades .flex{
         top: 25px;
     }
 }
+
+.sobre .interface{
+    display: flex;
+}
+
+.sobre .interface{
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.sobre .interface .div-img > img{
+    max-width: none;
+    max-height: none; 
+    width: auto;
+    height: 480px;
+    border-radius: 12px;
+}
+
+.sobre .interface .txt-sobre > h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.sobre .interface .txt-sobre > h2 > span{
+    color: #0fd9cf;
+}
+
+.sobre .interface .txt-sobre > p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.button-contact{
+    margin-top: 16px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0fd9cf;
+}
+
+.button-contact:hover{
+    cursor: pointer;
+}
+
+.button-contact > img{
+    width: 25px;
+}
