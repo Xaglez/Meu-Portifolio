@@ -162,7 +162,7 @@ section.especialidades .flex{
 }
 
 .sobre .interface{
-    margin-top: 40px;
+    margin-top: 70px;
     gap: 20px;
 }
 
@@ -189,17 +189,101 @@ section.especialidades .flex{
 }
 
 .button-contact{
-    margin-top: 16px;
+    margin-top: 45px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #0fd9cf;
+    background-color: #2d8580;
 }
 
 .button-contact:hover{
+    box-shadow: 0px 0px 6px #fff;
+    background-color: #0fd9cf;
     cursor: pointer;
+    transition: .2s;
+    transform: scale(1.05);
 }
 
 .button-contact > img{
     width: 25px;
+}
+
+section.portifolio{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff24;
+    margin-top: 140px;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 78px;
+}
+
+.img-port{
+    width: 560px;
+    height: 360px;
+    transition: 1.5s;
+    position: relative;
+    border-radius: 12px;
+}
+
+.legend{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0;
+    transition: .5s;
+    border-radius: 8px;
+}
+
+.legend:hover{
+    opacity: 1;
+}
+
+.img-port:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer{
+    padding: 40px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+    margin: 0;
+}
+
+.line-footer .flex{
+    justify-content: end;
+}
+
+@media screen  and (max-width: 1020px){
+    .menu, .btn_contato{
+        display: none;
+    }
+
+    section.portifolio{
+        box-shadow: none;
+    }
+
+    .img-port{
+        border-radius: 0;
+    }
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .img-topo{
+        right: 0;
+    }
 }

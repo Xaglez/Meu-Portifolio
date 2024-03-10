@@ -18,10 +18,10 @@
 
         <nav class = "menu">
             <ul>
-                <li><a href="">Inicío</a></li>
-                <li><a href="">Especialidades</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
+                <li><a href="#0">Inicío</a></li>
+                <li><a href="#1">Especialidades</a></li>
+                <li><a href="#2">Sobre</a></li>
+                <li><a href="#3">Projetos</a></li>
             </ul>
         </nav>
 
@@ -32,7 +32,7 @@
  </header>
 
  <main>
-    <section class="topo-do-site">
+    <section class="topo-do-site" id="0">
         <div class="interface">
             <div class="flex">
                 <div class="txt-topo">
@@ -53,7 +53,7 @@
                 </div>               
             </div>
         </div>
-    <section class="especialidades">
+    <section class="especialidades" id="1">
         <div class="interface">
             <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h1>
             <div class="flex">
@@ -79,24 +79,54 @@
             </div>
         </div>
     </section>
-    <section class="sobre">
+    <section class="sobre" id="2">
         <div class="interface">
-            <div class="div-img">
-                <img src="images/pxfuel.com.jpg" alt="">
+            <div class="flex">
+                <div class="div-img">
+                    <img src="images/pxfuel.com.jpg" alt="">
+                </div>
+                <div class="txt-sobre">
+                    <h2>Prazer, meu nome é <span>Paulo Gonçalves</span>.</h2>
+                    <p>Meu primeiro contato com programação foi através de jogos, com o interesse em saber como as coisas realmente funcionam, pois era muito interessante e curioso.
+                        <br>Comecei a estudar Linux e seu terminal e me apaixonei por tecnologia. Com o passar do tempo, iniciei minha faculdade de engenharia de software e criei
+                        meus primeiros projetos como desenvolvimento FullStack e Desktop, e assim comecei a gostar de programação. Hoje venho buscando minha primeira oportunidade nessa área incrível que é a da tecnologia.</p>                
+                    </p>
+                    <a href="https://github.com/Xaglez" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/github.svg" alt=""></button></a>
+                    <a href="https://www.linkedin.com/in/paulo-vin%C3%ADcius-gon%C3%A7alves-331441251/" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/linkedin.svg" alt=""></button></a>
+                    <a href="https://wa.me/5516994450904" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/whatsapp.svg" alt=""></button></a>
+                </div>
             </div>
-            <div class="txt-sobre">
-                <h2>Prazer, meu nome é <span>Paulo Gonçalves</span>.</h2>
-                <p>Meu primeiro contato com programação foi através de jogos, com o interesse em saber como as coisas realmente funcionam, pois era muito interessante e curioso.
-                    <br>Comecei a estudar Linux e seu terminal e me apaixonei por tecnologia. Com o passar do tempo, iniciei minha faculdade de engenharia de software e criei
-                    meus primeiros projetos como desenvolvimento FullStack e Desktop, e assim comecei a gostar de programação. Hoje venho buscando minha primeira oportunidade nessa área incrível que é a da tecnologia.</p>                
-                </p>
-                <a href="https://github.com/Xaglez" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/github.svg" alt=""></button></a>
-                <a href="https://www.linkedin.com/in/paulo-vin%C3%ADcius-gon%C3%A7alves-331441251/" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/linkedin.svg" alt=""></button></a>
-                <a href="https://wa.me/5516994450904" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/whatsapp.svg" alt=""></button></a>
-            </div>
+            
         </div>
         
     </section>
+    <section class="portifolio" id="3">
+        <div class="interface">
+            <h2 class="titulo">Meu <span>Portifólio.</span></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url(images/gpt.png);">
+                    <a href="https://github.com/Xaglez/Workspace" rel="noreferrer noopener" target="_blank"><div class="legend">Workspace</div></a>
+                </div>
+                <div class="img-port" style="background-image: url(images/face.png);">
+                   <a href="https://github.com/Xaglez/Facebook-Site" rel="noreferrer noopener" target="_blank"><div class="legend">Facebook Login</div></a>
+                </div>
+            </div>
+        </div>
+    </section>
  </main>
+ <footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div>
+                    <a href="https://github.com/Xaglez" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/github.svg" alt=""></button></a>
+                    <a href="https://www.linkedin.com/in/paulo-vin%C3%ADcius-gon%C3%A7alves-331441251/" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/linkedin.svg" alt=""></button></a>
+                    <a href="https://wa.me/5516994450904" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/whatsapp.svg" alt=""></button></a>
+                    <a href="mailto:paulomontealto3@gmail.com" rel="noreferrer noopener" target="_blank"><button class="button-contact"><img src="images/email.svg" alt=""></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </footer>
 </body>
 </html>
